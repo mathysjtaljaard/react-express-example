@@ -29,4 +29,4 @@ app.get('*', (req, res) => {
 const port = process.env.PORT || 3000;
 app.listen(port);
 
-console.log(`Password generator listening on ${port}`);
+console.log(`listening on ${port}`);
